@@ -11,9 +11,9 @@ enum Themes {
 export const ProjectsSection = () => {
   const { theme } = useTheme();
   return (
-    <section>
+    <section  id="project">
       <div
-        id="project"
+       
         className="max-w-3xl text-3xl sm:text-xl lg:text-3xl mb-5"
       >
         Projects
