@@ -3,10 +3,8 @@ import { TypeAnimation } from "react-type-animation";
 
 export const HeroSection = () => {
   return (
-    <section>
-      <div id="about" className="max-w-3xl text-3xl sm:text-xl lg:text-3xl">
-        Hello,
-      </div>
+    <section id="about">
+      <div className="max-w-3xl text-3xl sm:text-xl lg:text-3xl">Hello,</div>
       <div className="mb-4 text-3xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
         <TypeAnimation
           sequence={["My name is Mita", 1000, "I'm a Front End Engineer", 1000]}

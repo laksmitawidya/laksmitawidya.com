@@ -11,17 +11,18 @@ enum Themes {
 export const ProjectsSection = () => {
   const { theme } = useTheme();
   return (
-    <section>
+    <section  id="project">
       <div
-        id="project"
+       
         className="max-w-3xl text-3xl sm:text-xl lg:text-3xl mb-5"
       >
         Projects
       </div>
       <div className="flex gap-5 flex-wrap">
-        {projects.map((project) => {
+        {projects.map((project, index) => {
           return (
             <Card
+              key={index}
               onPress={() => {
                 window.open(project.url, "_blank", "noopener,noreferrer");
               }}

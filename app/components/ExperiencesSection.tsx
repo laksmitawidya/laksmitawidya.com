@@ -5,11 +5,8 @@ import { experiences } from "../data/data";
 
 export const ExperiencesSection = () => {
   return (
-    <section>
-      <div
-        id="experience"
-        className="max-w-3xl text-3xl sm:text-xl lg:text-3xl mb-5"
-      >
+    <section id="experience">
+      <div className="max-w-3xl text-3xl sm:text-xl lg:text-3xl mb-5">
         Experiences
       </div>
       <div className="flex gap-5">
