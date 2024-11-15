@@ -19,9 +19,10 @@ export const ProjectsSection = () => {
         Projects
       </div>
       <div className="flex gap-5 flex-wrap">
-        {projects.map((project) => {
+        {projects.map((project, index) => {
           return (
             <Card
+              key={index}
               onPress={() => {
                 window.open(project.url, "_blank", "noopener,noreferrer");
               }}
