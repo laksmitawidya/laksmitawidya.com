@@ -6,7 +6,7 @@ import { Github, Linkedin, Mail } from "lucide-react";
 export const Footer = () => {
   return (
     <section id="contact">
-      <div className="p-5 mb-20 flex flex-col justify-center items-center">
+      <div className="p-5 mb-20 sm:mb-5 flex flex-col justify-center items-center">
         <div>What's Next?</div>
         <div className="max-w-3xl text-3xl sm:text-xl lg:text-3xl">
           Get in touch
@@ -31,7 +31,7 @@ export const Footer = () => {
             anchorIcon={<Mail />}
           ></Link>
         </div>
-        <div className="mt-20 max-w-3xl flex justify-center items-center text-center">
+        <div className="mt-20 sm:mt-5 max-w-3xl flex justify-center items-center text-center sm:text-sm">
           My newbie project crafted with NextJS, written in Visual Studio,
           styled with TailwindCSS, NextUI and ShadCN UI, and sprinkled with
           design magic from Canva. Special thanks to ChatGPT for being my

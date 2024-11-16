@@ -24,7 +24,7 @@ export const ProjectsSection = () => {
                 window.open(project.url, "_blank", "noopener,noreferrer");
               }}
               isPressable
-              className="col-span-12 sm:col-span-4 h-[300px]"
+              className="col-span-12 sm:col-span-4 sm:w-full lg:w-[500px]"
             >
               <Image
                 src={
@@ -32,7 +32,6 @@ export const ProjectsSection = () => {
                     ? project.lightImage
                     : project.darkImage
                 }
-                width={500}
                 removeWrapper
                 alt="Card background"
                 className="z-0 w-full h-full object-scale-down"

@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-import {nextui} from "@nextui-org/react";
+import { nextui } from "@nextui-org/react";
 
 module.exports = {
   darkMode: ["class"],
@@ -8,7 +8,7 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
-    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -51,6 +51,9 @@ module.exports = {
         lg: `var(--radius)`,
         md: `calc(var(--radius) - 2px)`,
         sm: "calc(var(--radius) - 4px)",
+      },
+      screens: {
+        sm: "375px",
       },
     },
   },

@@ -18,7 +18,7 @@ export default function Page() {
   return (
     <main className={manrope.className}>
       <NavbarSection />
-      <div className="px-28 py-20 flex flex-col gap-y-40">
+      <div className="flex flex-col overflow-y-auto px-10 lg:px-28 py-10 lg:py-20 gap-y-10 lg:gap-y-36 w-full">
         <HeroSection />
         <ExperiencesSection />
         <ProjectsSection />
