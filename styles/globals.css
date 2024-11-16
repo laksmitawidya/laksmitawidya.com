@@ -70,3 +70,9 @@
   overflow-x: auto;
   max-width: 100%;
 }
+
+@media (min-width: 375px) {
+  .typeAnimationTitle {
+    font-size: 18pt;
+  }
+}

@@ -5,7 +5,7 @@ export const HeroSection = () => {
   return (
     <section id="about">
       <div className="max-w-3xl text-3xl sm:text-xl lg:text-3xl">Hello,</div>
-      <div className="mb-4 text-3xl sm:text-2xl lg:text-8xl lg:leading-normal font-extrabold">
+      <div className="typeAnimationTitle mb-4 text-3xl sm:text-md lg:text-8xl lg:leading-normal font-extrabold">
         <TypeAnimation
           sequence={["My name is Mita", 1000, "I'm a Front End Engineer", 1000]}
           wrapper="span"
