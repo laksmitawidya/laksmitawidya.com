@@ -11,11 +11,8 @@ enum Themes {
 export const ProjectsSection = () => {
   const { theme } = useTheme();
   return (
-    <section  id="project">
-      <div
-       
-        className="max-w-3xl text-3xl sm:text-xl lg:text-3xl mb-5"
-      >
+    <section id="project">
+      <div className="max-w-3xl text-3xl sm:text-xl lg:text-3xl mb-5">
         Projects
       </div>
       <div className="flex gap-5 flex-wrap">
@@ -38,7 +35,7 @@ export const ProjectsSection = () => {
                 width={500}
                 removeWrapper
                 alt="Card background"
-                className="z-0 w-full h-full object-cover"
+                className="z-0 w-full h-full object-scale-down"
               />
             </Card>
           );
