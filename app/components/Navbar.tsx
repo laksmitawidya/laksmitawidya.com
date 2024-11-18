@@ -10,7 +10,6 @@ import {
 } from "@nextui-org/react";
 
 import { ThemeSwitcher } from "./ThemeSwitcher";
-import { Flower } from "lucide-react";
 
 export const NavbarSection = () => {
   const scrollToSection = (id: string) => {

@@ -53,22 +53,17 @@
   * {
     @apply border-border;
   }
-  /* body {
-    @apply font-sans antialiased bg-background text-foreground;
-  } */
+}
+
+#experience {
+  max-width: 100%;
 }
 
 #about,
 #experience,
 #project,
 #contact {
-  scroll-margin-top: 100px;
-  overflow: hidden;
-}
-
-#experience {
-  overflow-x: auto;
-  max-width: 100%;
+  scroll-margin-top: 120px;
 }
 
 @media (min-width: 375px) {

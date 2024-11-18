@@ -6,7 +6,7 @@ import { ExperiencesSection } from "./components/ExperiencesSection";
 import { Footer } from "./components/Footer";
 
 export const metadata = {
-  title: "App Router",
+  title: "Laksmita Portfolio",
 };
 
 const manrope = Manrope({
